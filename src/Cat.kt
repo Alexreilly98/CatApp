@@ -19,12 +19,7 @@ class Cat(private val name: String, private var age: Int, weightIn: Int) {
         return false
     }
 
-
-
-
-
-    public override fun toString(): String
-    {
+    public override fun toString(): String {
         return "Name: $name, age: $age, weight: $weight"
     }
 }
