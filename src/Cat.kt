@@ -1,7 +1,11 @@
 class Cat (val name: String, var age: Int, var weight: Int) {
 
-    fun walk() {
-        weight--
+    fun walk(times: Int = 1) {
+        weight -= times
+    }
+
+    fun eat(times: Int = 1) {
+        weight += times
     }
 
     override fun toString() : String {

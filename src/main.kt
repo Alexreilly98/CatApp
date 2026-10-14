@@ -1,8 +1,14 @@
-fun main() {
-    val binnie = Cat("Binnie", 10, 10)
-    val clyde = Cat("Clyde", 5, 5)
-    binnie.walk()
-    clyde.walk()
-    println(binnie)
-    println(clyde)
+fun main () {
+    val tom = Cat("Tom", 10, 10)
+    val mary = Cat("Mary", 9, 8)
+    val flathead = Cat("Flathead", 7, 10)
+    val cupra = Cat("Cupra", 2, 7)
+    tom.walk()
+    mary.walk()
+    flathead.eat(2)
+    cupra.walk(4)
+    println(tom)
+    println(mary)
+    println(flathead)
+    println(cupra)
 }
